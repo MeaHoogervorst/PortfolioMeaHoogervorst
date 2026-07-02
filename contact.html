@@ -4,47 +4,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio CMD Student - Contact</title>
+
+    <title>Contact | Mea Hoogervorst</title>
+
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="bestanden/backgroundportfolio.webp" type="image/png">
+
+    <link rel="icon" type="image/svg+xml" href="bestanden/Mea..svg">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" href="bestanden/backgroundportfolio.webp">
+
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">CV</a></li>
-            <li><a href="projects.html">Projecten</a></li>
-            <li><a href="contact.html" class="active">Contact</a></li>
-        </ul>
-    </nav>
-    <header>
-        <h1>Contact</h1>
-    </header>
-    <main>
-        <h2>Contact</h2>
-        <form action="https://formspree.io/f/mdkodlyr" method="POST">
-            <label>
-                E-mailadres:
-                <input type="email" name="email">
-            </label>
-            <label>
-                Bericht:
-                <textarea name="message"></textarea>
-            </label>
-            <!-- your other form fields go here -->
-            <button type="submit">Verstuur</button>
-        </form>
 
-        <div>
-            <p><strong>E-mailadress</strong> mea.hoogervorst@gmail.com </p>
-            <p><strong>Telefoonnummer</strong> 06 833 34 667</p>
-        </div>
+<div class="background"></div>
 
-    </main>
-    <footer>
-        <p>&copy; 2024 Mea Hoogervorst. Alle rechten voorbehouden.</p>
-    </footer>
+<nav>
+
+<div class="logo">Mea.</div>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">CV</a></li>
+<li><a href="projects.html">Projecten</a></li>
+<li><a class="active" href="contact.html">Contact</a></li>
+</ul>
+
+</nav>
+
+
+<header class="page-header">
+
+<p class="subtitle">
+Let's connect
+</p>
+
+<h1>Neem contact op</h1>
+
+<p class="intro">
+Heb je een leuke stage, project of wil je gewoon kennismaken?
+Ik hoor graag van je.
+</p>
+
+</header>
+
+
+
+<main class="contact-container">
+
+<section class="glass-card">
+
+<h2>Stuur een bericht</h2>
+
+<form action="https://formspree.io/f/mdkodlyr" method="POST">
+
+<label>E-mailadres</label>
+
+<input
+type="email"
+name="email"
+placeholder="jouw@email.nl"
+required>
+
+<label>Bericht</label>
+
+<textarea
+name="message"
+rows="8"
+placeholder="Typ hier je bericht..."
+required></textarea>
+
+<button class="button" type="submit">
+Verstuur bericht
+</button>
+
+</form>
+
+</section>
+
+
+
+<section class="glass-card info-card">
+
+<h2>Gegevens</h2>
+
+<div class="contact-item">
+
+<h3>E-mail</h3>
+
+<p>
+<a href="mailto:mea.hoogervorst@gmail.com">
+mea.hoogervorst@gmail.com
+</a>
+</p>
+
+</div>
+
+
+<div class="contact-item">
+
+<h3>Telefoon</h3>
+
+<p>
+<a href="tel:+31683334667">
+06 833 34 667
+</a>
+</p>
+
+</div>
+
+
+<div class="contact-item">
+
+<h3>Status</h3>
+
+<p>
+Open voor stages, freelance en samenwerkingen.
+</p>
+
+</div>
+
+</section>
+
+</main>
+
+<footer>
+
+© 2026 Mea Hoogervorst
+
+</footer>
+
 </body>
 
 </html>
